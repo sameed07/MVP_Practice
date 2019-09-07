@@ -1,10 +1,12 @@
-package com.sameedshah_squadtech.mvppractice;
+package Main;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import com.sameedshah_squadtech.mvppractice.R;
+
+public class MainActivity extends AppCompatActivity implements MainContract.MvpView {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
